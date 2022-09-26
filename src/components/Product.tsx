@@ -14,6 +14,7 @@ function Product(props: ProductProps) {
 
   return (
     <>
+    <div className='block'>_</div>
     <div className='border py-2 px-4 rounded flex flex-col items-center mb-2'>
       <img src={props.product.image} className="w-1/6" alt="phot"/>
       <p>{ props.product.title }</p>
