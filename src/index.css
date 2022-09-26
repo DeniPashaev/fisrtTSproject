@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.pagetwo {
+    background-color: aliceblue;
+    color: blue;
+}
+.block{
+color: aqua;
+}
