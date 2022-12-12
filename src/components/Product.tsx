@@ -9,7 +9,7 @@ function Product(props: ProductProps) {
 
   const [details, setDetails] = useState(false)
 
-  const btnClassName = details ? 'bg-blue-400' : 'bg-cyan-400'
+  const btnClassName = details ? 'bg-blue-410' : 'bg-cyan-410'
   const btnClasses = ['py-2 px-4 border', btnClassName]
 
   return (
